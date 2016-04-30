@@ -39,11 +39,10 @@ int main() {
 	while(true) {
 		for (int i = 0; i < numctrl; i++) {
 			sixenseGetNewestData(i, &data);
-			oss << "42[\"obj\"]";
-			// oss << "42[\"obj\",[\"hydra" << i << "\",";
-			// oss << data.pos[0] << ",";
-			// oss << data.pos[1] << ",";
-			// oss << data.pos[2] << "]]";
+			oss << "42[\"obj\",{\"hydra" << i << "\":[";
+			oss << data.pos[0] << ",";
+			oss << data.pos[1] << ",";
+			oss << data.pos[2] << "]}]";
 			ws->send(oss.str());
 			ws->poll();
 			std::ostringstream().swap(oss);
