@@ -21,3 +21,4 @@ set_property(TARGET sioclient_tls PROPERTY IMPORTED_LOCATION ${EXT_LIB}/sioclien
 
 add_executable(hydra-plugin hydra-plugin.cpp)
 target_link_libraries(hydra-plugin sixense boost_combined sioclient sioclient_tls)
+target_compile_features(hydra-plugin PUBLIC cxx_range_for)
