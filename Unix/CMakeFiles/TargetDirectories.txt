@@ -1,1 +1,2 @@
 /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/Unix/CMakeFiles/hydra-plugin.dir
+/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/Unix/easywsclient/CMakeFiles/easywsclient.dir

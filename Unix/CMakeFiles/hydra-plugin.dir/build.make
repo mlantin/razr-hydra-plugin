@@ -91,9 +91,7 @@ hydra__plugin_EXTERNAL_OBJECTS =
 /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin: CMakeFiles/hydra-plugin.dir/hydra-plugin.cpp.o
 /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin: CMakeFiles/hydra-plugin.dir/build.make
 /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin: /usr/local/lib/libsixense_x64.dylib
-/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib/sioclient/lib/Release/libboost_combined.a
-/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib/sioclient/lib/Release/libsioclient.a
-/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib/sioclient/lib/Release/libsioclient_tls.a
+/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/libeasywsclient.a
 /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin: CMakeFiles/hydra-plugin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/Unix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/bin/hydra-plugin"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hydra-plugin.dir/link.txt --verbose=$(VERBOSE)
