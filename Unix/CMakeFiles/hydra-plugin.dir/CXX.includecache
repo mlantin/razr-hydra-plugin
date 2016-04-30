@@ -45,4 +45,8 @@ sioclient/include/sio_client.h
 /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/sioclient/include/sio_client.h
 sstream
 -
+chrono
+-
+thread
+-
 
