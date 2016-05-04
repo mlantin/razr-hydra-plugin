@@ -123,6 +123,19 @@ hydra-plugin/fast:
 	$(MAKE) -f CMakeFiles/hydra-plugin.dir/build.make CMakeFiles/hydra-plugin.dir/build
 .PHONY : hydra-plugin/fast
 
+#=============================================================================
+# Target rules for targets named VRCom
+
+# Build rule for target.
+VRCom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VRCom
+.PHONY : VRCom
+
+# fast build rule for target.
+VRCom/fast:
+	$(MAKE) -f protobuf/CMakeFiles/VRCom.dir/build.make protobuf/CMakeFiles/VRCom.dir/build
+.PHONY : VRCom/fast
+
 hydra-plugin.o: hydra-plugin.cpp.o
 
 .PHONY : hydra-plugin.o
@@ -159,6 +172,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hydra-plugin"
+	@echo "... VRCom"
 	@echo "... hydra-plugin.o"
 	@echo "... hydra-plugin.i"
 	@echo "... hydra-plugin.s"

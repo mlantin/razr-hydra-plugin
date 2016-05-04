@@ -6,4 +6,5 @@ CMakeFiles/hydra-plugin.dir/hydra-plugin.cpp.o: /Users/mlantin/Documents/Researc
 CMakeFiles/hydra-plugin.dir/hydra-plugin.cpp.o: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib/sioclient/include/sio_socket.h
 CMakeFiles/hydra-plugin.dir/hydra-plugin.cpp.o: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib/sixense/sixense.h
 CMakeFiles/hydra-plugin.dir/hydra-plugin.cpp.o: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/hydra-plugin.cpp
+CMakeFiles/hydra-plugin.dir/hydra-plugin.cpp.o: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/protobuf/VRCom.pb.h
 

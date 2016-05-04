@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/easywsclient
+# Install script for directory: /Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/protobuf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

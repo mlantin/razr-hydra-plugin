@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/easywsclient/easywsclient.cpp" "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/Unix/easywsclient/CMakeFiles/easywsclient.dir/easywsclient.cpp.o"
+  "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/protobuf/VRCom.pb.cc" "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/Unix/protobuf/CMakeFiles/VRCom.dir/VRCom.pb.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -12,7 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src"
   "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib"
-  "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/easywsclient"
+  "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/protobuf"
   )
 
 # Targets to which this target links.

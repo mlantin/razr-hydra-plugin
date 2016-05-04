@@ -12,10 +12,12 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src"
   "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib"
+  "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/protobuf"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/Unix/protobuf/CMakeFiles/VRCom.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
