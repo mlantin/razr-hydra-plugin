@@ -25,5 +25,9 @@ set_property(TARGET protobuf_lib PROPERTY IMPORTED_LOCATION /usr/local/lib/libpr
 add_subdirectory(protobuf)
 
 add_executable(hydra-plugin hydra-plugin.cpp)
+<<<<<<< HEAD
 target_link_libraries(hydra-plugin sixense boost_combined sioclient sioclient_tls protobuf_lib VRCom)
+=======
+target_link_libraries(hydra-plugin sixense easywsclient)
+>>>>>>> simplesocket
 target_compile_features(hydra-plugin PUBLIC cxx_range_for)
