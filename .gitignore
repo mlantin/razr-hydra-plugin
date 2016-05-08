@@ -3,4 +3,5 @@
 **/*.o
 **/*.cmake
 **/CMakeCache.*
-src/**/Makefile
+/src/**/Makefile
+/Unix/*
