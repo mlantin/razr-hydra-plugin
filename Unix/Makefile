@@ -136,6 +136,19 @@ VRCom/fast:
 	$(MAKE) -f protobuf/CMakeFiles/VRCom.dir/build.make protobuf/CMakeFiles/VRCom.dir/build
 .PHONY : VRCom/fast
 
+#=============================================================================
+# Target rules for targets named easywsclient
+
+# Build rule for target.
+easywsclient: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 easywsclient
+.PHONY : easywsclient
+
+# fast build rule for target.
+easywsclient/fast:
+	$(MAKE) -f easywsclient/CMakeFiles/easywsclient.dir/build.make easywsclient/CMakeFiles/easywsclient.dir/build
+.PHONY : easywsclient/fast
+
 hydra-plugin.o: hydra-plugin.cpp.o
 
 .PHONY : hydra-plugin.o
@@ -173,6 +186,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... hydra-plugin"
 	@echo "... VRCom"
+	@echo "... easywsclient"
 	@echo "... hydra-plugin.o"
 	@echo "... hydra-plugin.i"
 	@echo "... hydra-plugin.s"

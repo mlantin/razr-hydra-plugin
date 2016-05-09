@@ -30,6 +30,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/Unix/protobuf/cmake_install.cmake")
+  include("/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/Unix/easywsclient/cmake_install.cmake")
 
 endif()
 

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src -I/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib -I/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/protobuf 
+CXX_INCLUDES = -I/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src -I/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/../lib -I/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/easywsclient -I/Users/mlantin/Documents/Research/VR/razr-hydra-plugin/src/protobuf 
 
