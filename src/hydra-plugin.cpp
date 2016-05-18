@@ -8,7 +8,7 @@
 #include <chrono>
 #include <thread>
 
-int main() {
+int main(int argc, char* argv[]) {
 
 	using easywsclient::WebSocket;
 	WebSocket::pointer ws = NULL;
@@ -44,15 +44,21 @@ int main() {
     }
     #endif
 
-    ws = WebSocket::from_url("ws://192.168.11.34:4567");
+    std::string websocketAddr = "ws://192.168.11.34:4567";
+
+    if (argc > 1) {
+    	websocketAddr = argv[1];
+    }
+
+    ws = WebSocket::from_url(websocketAddr);
     assert(ws);
 
 	while(true) {
 		for (int i = 0; i < numctrl; i++) {
 			sixenseGetNewestData(i, &data);
 
-			// std::cerr << "controller: " << i << std::endl;
-			// std::cerr << "pos: " << data.pos[0] << ", " << data.pos[1] << ", " << data.pos[2] << std::endl;
+			//std::cerr << "controller: " << i << std::endl;
+			//std::cerr << "pos: " << data.pos[0] << ", " << data.pos[1] << ", " << data.pos[2] << std::endl;
 			// std::cerr << "rot: " << data.rot_quat[0] << ", " << data.rot_quat[1] << ", " << data.rot_quat[2] << ", " << data.rot_quat[3] << std::endl;
 			// std::cerr << "joystick: " << data.joystick_x << ", " << data.joystick_y << std::endl;
 			// std::cerr << "trigger: " << data.trigger << std::endl;
